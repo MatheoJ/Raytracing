@@ -37,7 +37,7 @@ public:
 
 	virtual void OnUpdate(float ts) override
 	{
-		m_Camera.OnUpdate(ts)	
+		m_Camera.OnUpdate(ts);
 	}
 
 	virtual void OnUIRender() override
